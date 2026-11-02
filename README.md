@@ -1,2 +1,25 @@
-# E-commerce-Data-Analysis
-Data analysis project on 150k+ e-commerce transactions using Python.
+# 电商销售数据分析 (E-commerce Data Analysis)
+
+## 📌 项目背景
+基于 Kaggle 上 150,000+ 条电商交易记录，旨在通过探索性数据分析（EDA），挖掘业务背后的商业规律，为运营决策提供数据支持。
+
+## 📊 数据集说明
+由于原始数据体积较大（约 47MB），未上传至本仓库。
+数据源链接：[Kaggle - E-Commerce Sales Analytics Dataset](https://www.kaggle.com/datasets/datascikhan/e-commerce-sales-and-customer-analytics)
+
+## 🛠️ 技术栈
+- **语言**：Python
+- **数据处理**：Pandas, NumPy
+- **数据可视化**：Matplotlib
+
+## 💡 核心分析维度与洞察
+本项目从**产品、地域、客户、时间**四个维度进行了全盘分析：
+
+1. **产品维度**：发现“运动户外”销量最高，但“电子产品”贡献了最大的利润（超 1400 万）。建议利用高频低价商品引流，搭配高毛利商品转化。
+2. **地域维度**：业务仅覆盖 7 个国家，其中美国（USA）市场贡献了断层式的利润。建议优先保障美国供应链，并寻找第二增长曲线。
+3. **客户维度**：打破常规认知，普通消费者（Consumer）不仅订单量大，其“单均利润”（566元）也位居第一。VIP 客户单均利润反而垫底。
+4. **时间维度**：平台利润呈现显著的“锯齿状”周期性波动，每年有 2-3 次高峰与低谷，说明电商淡旺季属性极强。
+
+## 📁 文件说明
+- `E-commerce_Analysis.ipynb`：包含数据清洗、合并、分析及可视化的完整 Python 源码。
+- `E-commerce_Analysis.html`：可视化的完整分析报告（无需环境，浏览器直接打开）。
